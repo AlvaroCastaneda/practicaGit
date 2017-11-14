@@ -29,7 +29,7 @@ public class AreaCirculo {
     
     public void saca(){
         pi = Math.PI;
-        area = pi * Math.pow(radio, 2);
+        area = Math.pow(pi * radio, 2);
         
         System.out.println("Area: " + area);
         
